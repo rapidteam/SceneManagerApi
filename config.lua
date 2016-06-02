@@ -1,6 +1,6 @@
 return {
 	bot_api_key = '214536589:AAGJ2Y6sq3VBRxF9hCT2MUHrmTaqdSZVGiA',
-	admin = 100096055,
+	admin = 100096055,196560568,147191022,
 	log_chat = -1001057801239,
 	channel = '@SceneManagerApi', --channel username with the '@'
 	languages = 'languages.lua',
