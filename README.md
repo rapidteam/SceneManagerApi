@@ -1,19 +1,15 @@
-#Group Butler
+#SceneManager_Api_Bot
 
 ##Introduction
 
 This bot has been created to help people in the administration of a group, with a lot of useful tools 8you can see them in the command list below).
-
-This bot takes the main loop and bindings from [Otouto](https://github.com/topkecleon/otouto) ([@mokubot](https://telegram.me/mokubot)).
-
-Otouto and Group Butler are licensed under the GNU General Public License. A copy of the license has been included in [LICENSE](https://github.com/RememberTheAir/GroupButler/blob/master/LICENSE).
 
 ##What is it?
 Group Butler is a Telegram API bot written in Lua. It has been created to help the members of a group to keep it clean and regulated, from the point of view of administrators and normal users.
 
 This bot takes its long-polling loop and its structure from Otouto (3.0 or lower, iirc) and it's plugin-based. This makes easier to manage each function and command of the bot, and allows to split the different capabilities of it in different files for a more specific vision of what it should do.
 
-Follow the [channel](https://telegram.me/groupbutler_ch) if you want to be updated about new changes.
+Follow the [channel](https://telegram.me/SceneManagerApi) if you want to be updated about new changes.
 * * *
 
 ##Commands
@@ -227,8 +223,8 @@ Clone the github repository:
 ```bash
 # Clone the repo and give the permission to start the launch script
 
-$ git clone https://github.com/RememberTheAir/GroupButler.git
-$ cd GroupButler && sudo chmod 777 launch.sh
+$ git clone https://github.com/SceneTeam/SceneManagerApi.git
+$ cd SceneManagerApi && sudo chmod 777 launch.sh
 ```
 
 **First of all, take a look to your bot settings:**
@@ -298,10 +294,6 @@ Strings are in languages.lua, admin commands are not trasnlated.
 
 * * *
 
-##Contributors
-Everybody is free to contribute to otouto and to Group Butler.
-
-The official [Group Butler](http://github.com/groupbutler_bot).
 
 ##Credits
 Topkecleon, for the original otouto
@@ -317,3 +309,4 @@ Le Laide
 ##Final
 
 I hate when I break a plugin main function with a return. I have to change all, one day or another
+
