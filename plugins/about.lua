@@ -13,6 +13,8 @@ local action = function(msg, blocks, ln)
         	api.sendReply(msg, out, true)
         end
         mystat('/about')
+        mystat('!about')
+        mystat('#about')
     end
 	if blocks[1] == 'addabout' then
 		--ignore if not mod
@@ -41,6 +43,8 @@ local action = function(msg, blocks, ln)
             end
         end
         mystat('/addabout')
+        mystat('!addabout')
+        mystat('#addabout')
     end
 	if blocks[1] == 'setabout' then
 		local input = blocks[2]
@@ -75,6 +79,8 @@ local action = function(msg, blocks, ln)
 			api.editMessageText(msg.chat.id, id, lang[ln].setabout.about_setted, false, true)
 		end
 		mystat('/setabout')
+		mystat('!setabout')
+		mystat('#setabout')
 	end
 
 end
@@ -83,10 +89,10 @@ return {
 	action = action,
 	get_about = get_about,
 	triggers = {
-		'^/(setabout)$', --to warn if an user don't add a text
-		'^/(setabout) (.*)',
-		'^/(about)$',
-		'^/(addabout)$', --to warn if an user don't add a text
-		'^/(addabout) (.*)',
+		'^[!/#](setabout)$', --to warn if an user don't add a text
+		'^[!/#](setabout) (.*)',
+		'^[!/#](about)$',
+		'^[!/#](addabout)$', --to warn if an user don't add a text
+		'^[!/#](addabout) (.*)',
 	}
 }
