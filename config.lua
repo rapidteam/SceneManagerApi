@@ -1,8 +1,8 @@
 return {
-	bot_api_key = '205150901:AAHwzjWvGjbgAw2oo55IOflZfvz53SwfQME',
-	admin = 226726601,
+	bot_api_key = '214536589:AAGJ2Y6sq3VBRxF9hCT2MUHrmTaqdSZVGiA',
+	admin = 100096055,
 	log_chat = -1001057801239,
-	channel = '@Ranger_Alliace', --channel username with the '@'
+	channel = '@SceneManagerApi', --channel username with the '@'
 	languages = 'languages.lua',
 	plugins = {
 		'onmessage.lua', --THIS HAVE TO BE THE FIRST: IF AN USER IS SPAMMING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
